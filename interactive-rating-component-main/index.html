@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+
+  <main class="card">
+
+    <section class="main-container container">
+
+    <div class="img">  <img src="images/icon-star.svg" alt=""></div>
+
+      <h1> How did we do?</h1>
+
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+
+      <div class="numbers">
+        <button id="one" class="button">1</button>
+        <button id="two" class="button">2</button>
+        <button id="three" class="button active">3</button>
+        <button id="for" class="button">4</button>
+        <button id="five" class="button">5</button>
+      </div>
+
+      <button class="submit">Submit</button>
+
+    </section>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <section class="thank-section container hidden">
+
+     <div class="image"><img src="images/illustration-thank-you.svg" alt=""></div>
+
+       <div class="selected">
+          <p>You selected <span class="score">0</span> out of 5</p>   
+        </div>
+
+        <h1>Thank you!</h1>
+      
+     <div class="text">
+         <p>
+            We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!
+         </p>
+     </div>
+    </section>
+
+    <!-- Thank you state end -->
+  </main>
+
+ <footer>
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>.
+        Coded by <a href="#"> Laryssa Souza Ramos</a>.
+      </p>
+    </div>
+ </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

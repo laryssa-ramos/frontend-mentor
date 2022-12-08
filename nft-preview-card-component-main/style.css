@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+:root{
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --very-dark-blue-text: hsl(217, 34%, 54%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    background: var(--very-dark-blue-main);
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden;
+}
+
+.card-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container .container{
+    max-width: 250px;
+    width: 100%;
+    padding: .9rem;
+    background: var(--very-dark-blue-card);
+    border-radius: 0.7rem;
+}
+
+.card-container .container .img img{
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.card-container .container .info h1{
+    font-size: 1rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.card-container .container .info p{
+    font-size: .8rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    color: var(--very-dark-blue-text);
+}
+
+
+.card-container .container .info .details {
+    justify-content: space-between;
+    display: flex;
+}
+.card-container .container .info .details .eth{
+    display: flex;
+    align-items: center;
+    font-size: .7rem;
+    font-weight: 600;
+    color: aqua;
+}
+.card-container .container .info .details .eth img{
+    margin-right: .4rem ;
+}
+
+.card-container .container .info .details .clock{
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    color: var(--very-dark-blue-text);
+}
+
+.card-container .container .info .details .clock img{
+    margin-right: .4rem;
+}
+
+.card-container .container .info .line{
+    height: 1px;
+    margin-top: 1rem;
+    background: var(--very-dark-blue-line);
+}
+.card-container .container .info .create{
+    display: flex;
+}
+.card-container .container .info .create .avatar{
+    margin: .7rem .5rem 0 0;
+    border: 1px solid var(--white);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.card-container .container .info .create .avatar img{
+    height: 30px;
+}
+
+.card-container .container .info .create a{
+   text-decoration: none;
+   color: var(--white);
+}
+.card-container .container .info h1:hover,
+.card-container .container .info .create a:hover{
+    color: aqua;
+    transition: all .2s linear;
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--very-dark-blue-text);
+  }
+
+.attribution a {
+    text-decoration: none;
+    color:var(--white);
+  }
