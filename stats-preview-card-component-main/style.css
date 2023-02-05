@@ -118,6 +118,7 @@ body{
     font-size: 11px; 
     color: var(--slightly-transparent-white);
     text-align: center; 
+    margin: 0;
 
 }
 .attribution a { 
@@ -148,6 +149,7 @@ body{
 
 @media (max-width: 620px){
 
+
     html{
         font-size: 85%;
     }
@@ -156,7 +158,7 @@ body{
         height: 100%;
         justify-content: center;
         align-items: center;
-        margin:1rem;
+        
     }
     
     .main-container .container{
