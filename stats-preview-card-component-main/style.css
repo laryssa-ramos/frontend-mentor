@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+:root{
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated-blue:hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-stat: hsla(0, 0%, 100%, 0.6);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+    background: var(--very-dark-blue);
+}
+
+.main-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .container{
+    background: var(--dark-desaturated-blue);
+    max-width: 700px;
+    width: 90%;
+    display: flex;
+    border-radius: .5rem;
+}
+
+.main-container .container .img.mobile{
+    display: none;
+}
+
+.main-container .container .text{
+   width: 80%;
+   margin: 1.7rem 2rem 0 3rem;
+}
+
+.main-container .container .text h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: var(--white);
+    margin: 1rem 0;
+}
+.main-container .container .text h1 span{
+    color: var(--soft-violet) ;
+}
+
+.main-container .container .text p{
+    font-family: 'Inter', sans-serif;
+    font-size: .65rem;
+    line-height: 1.1rem;
+    color: var(--slightly-transparent-white);
+    width: 90%;
+    margin-bottom: 2.5rem;
+    
+}
+
+
+.main-container .container .content{
+   display: flex;
+   justify-content: space-between ;
+   width: 80%;
+}
+.main-container .container .content .info{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-container .container .content .info .number{
+    font-family: 'Inter';
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+.main-container .container .content .info .text{
+    font-family: 'Lexend Deca';
+    font-size: .52rem;
+    color: var(--slightly-transparent-stat);
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: .03rem;
+}
+
+.main-container .container .img{
+    width: 100%;
+    position: relative;
+}
+
+.main-container .container .img::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: var(--soft-violet);
+    opacity: 0.45;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.main-container .container .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.attribution { 
+    font-family: 'Lexend Deca';
+    font-size: 11px; 
+    color: var(--slightly-transparent-white);
+    text-align: center; 
+
+}
+.attribution a { 
+    text-decoration: none;
+    color: var(--soft-violet); 
+}
+
+
+@media (max-width: 720px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 672px){
+    html{
+        font-size: 85%;
+    }
+}
+
+
+@media (max-width: 660px){
+    html{
+        font-size: 80%;
+    }
+}
+
+
+@media (max-width: 620px){
+
+    html{
+        font-size: 85%;
+    }
+
+    .main-container {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin:1rem;
+    }
+    
+    .main-container .container{
+        display: block;
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .main-container .container .img.mobile{
+        display: block;
+        height: 40%;
+    }
+
+    .main-container .container .img.desktop{
+        display: none;
+    }
+    
+    .main-container .container .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: .5rem .5rem 0 0;
+    }
+
+    .main-container .container .img::before{
+        position: absolute;
+        content: '';
+        height: 98%;
+        width: 100%;
+        background-color: var(--soft-violet);
+        opacity: 0.45;
+        border-radius: .5rem .5rem 0 0;
+    }
+
+    .main-container .container .text{
+        margin: 1.5rem 1.5rem 1.5rem 2rem;
+        text-align: center;
+     }
+
+     .main-container .container .text p{
+        width: 95%;
+        line-height: 1.2rem;
+        font-size: .8rem;
+        margin-bottom: 1.2rem;
+     }
+     .main-container .container .content{
+        display: block;
+       
+    }
+
+    .main-container .container .content .info .number{
+        margin: 0 0 .3rem 1rem;
+    }
+
+    .main-container .container .content .info{
+        margin:0 0 1rem 1.3rem;
+    }
+
+    .main-container .container .content .info .text{
+        margin-left: 1.5rem;
+        
+    }
+}

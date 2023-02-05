@@ -27,11 +27,26 @@ body{
 }
 
 .card-container .container{
+    position: relative;
     max-width: 250px;
     width: 100%;
     padding: .9rem;
     background: var(--very-dark-blue-card);
     border-radius: 0.7rem;
+}
+
+.card-container .container .img:hover::before{
+    content: '';
+    position: absolute;
+    background: aqua;
+    background-image: url("images/icon-view.svg" );
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 0.7rem;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .card-container .container .img img{

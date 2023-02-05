@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background: var(--pale-blue);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+}
+
+.main-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-container .container{
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.main-container .container{
+    background: var(--very-pale-blue);
+    border-radius: 1rem;
+}
+
+.main-container .container .img img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.main-container .text{
+    text-align: center;
+}
+
+.main-container .text h1{
+    margin-top: 1.5em;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+
+.main-container .text p{
+    color: var(--desaturated-blue) ;
+    font-size: .7rem;
+    padding: 0 2.4rem;
+    line-height: 1.2rem;
+}
+
+.main-container .plan-container{
+    display: flex;
+    align-items: center;
+    padding: 0 2.4rem;
+    margin: 1.3rem 0 1.6rem;
+    justify-content: space-between;
+    
+}
+
+.main-container .plan-container .container{
+    display: flex;
+  
+}
+
+
+.main-container .plan-container img{
+    height: 35px;
+}
+
+
+.main-container .plan-container .money-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: .8rem;
+    line-height: 1.1rem;
+}
+
+
+.main-container .plan-container .money-container .title{
+    font-size: .7rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+   
+}
+
+.main-container .plan-container .money-container .money{
+    font-size: .7rem;
+    color: var(--desaturated-blue);
+}
+
+
+.main-container .plan-container  a{
+    font-size: .7rem;
+    color: blue;
+    transition: all .2s linear;
+}
+
+.main-container .plan-container  a:hover{
+    color: var(--desaturated-blue);
+}
+
+.main-container .container .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-container .container .buttons .button{
+    width: 80%;
+    font-size: .7rem;
+    padding: .7rem;
+    border-radius: .5rem;
+    border: none;
+    background: var(--bright-blue);
+    color: var(--very-pale-blue);
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    box-shadow: 2px 2px 10px var(--desaturated-blue);
+    transition: all .2s linear;
+}
+
+.main-container .container .buttons .button:hover{
+    background: var(--desaturated-blue);
+    cursor: pointer;
+}
+
+.main-container .container .buttons a{
+    font-size: .6rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: blue;
+    transition: all .2s linear;
+}
+
+.main-container .container .buttons a:hover{
+    color: rgb(12, 12, 104);
+    font-weight: 700;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+}
