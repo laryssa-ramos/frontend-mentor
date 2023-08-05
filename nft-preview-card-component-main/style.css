@@ -19,8 +19,15 @@ body{
     overflow: hidden;
 }
 
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+ 
+
 .card-container{
-    height: 90vh;
+    min-height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,6 +137,7 @@ body{
     font-size: 11px;
     text-align: center;
     color: var(--very-dark-blue-text);
+    margin: 1.5rem 0;
   }
 
 .attribution a {
