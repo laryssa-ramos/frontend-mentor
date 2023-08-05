@@ -136,6 +136,7 @@ body{
     .card{
         display: block;
         width: 25rem;
+        padding-bottom: .2rem;
     }
 
     .card .image img{
