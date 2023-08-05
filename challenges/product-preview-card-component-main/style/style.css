@@ -28,16 +28,19 @@
 html{
     font-size: 14px;
     overflow-x: hidden;
+    
 }
 
 body{
     background-color: var(--cream);
+
+    height: 80vh;
 }
 
 .card{
     display: flex;
     width: 40rem;
-    margin: 5.4rem auto 4rem;
+    margin: 5.4rem auto 0;
     background-color: #fff;
     border-radius: 0.7rem;
 
@@ -133,7 +136,6 @@ body{
     .card{
         display: block;
         width: 25rem;
-        padding-bottom: .2rem;
     }
 
     .card .image img{
