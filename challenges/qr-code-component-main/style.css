@@ -66,4 +66,5 @@ footer .attribution {
 footer .attribution a { 
     text-decoration: none;
     color: var(--dark-blue); 
+    font-weight: bold;
 }

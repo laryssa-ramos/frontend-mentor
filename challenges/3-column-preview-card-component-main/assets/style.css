@@ -158,4 +158,8 @@ html, body {
         border-radius: 0 0 .5rem .5rem;
     }
 
+    .container .box{
+        width: 25rem;
+    }
+
 }
