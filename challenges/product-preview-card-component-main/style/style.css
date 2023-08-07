@@ -40,7 +40,7 @@ body{
 .card{
     display: flex;
     width: 40rem;
-    margin: 5.4rem auto 0;
+    margin: 3rem auto 0;
     background-color: #fff;
     border-radius: 0.7rem;
 
@@ -119,12 +119,40 @@ body{
     background-color:  hsl(158, 40%, 16%) ;
 }
 
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.buttons-container .buttons .button{
+   background: #fff;
+   border-radius: 50%;
+}
+
+
+.buttons-container .buttons a img{
+    height: 40px;
+    background-color: var(--dark-cyan);
+    border-radius: 50%;
+    padding: .6rem;
+    transition: all .2s linear;
+}
+
+
+.buttons-container .buttons a img:hover{
+  
+    background-color: var(--dark-grayish-blue);
+  
+}
+
 
 .attribution { 
     font-family: var(--font2);
     font-size: 1rem; 
     text-align: center; 
-    margin: 1.5rem 0;
+    margin: 1.2rem 0;
 }
 .attribution a { 
     color: var(--dark-cyan);

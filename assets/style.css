@@ -57,7 +57,7 @@ h1{
     font-size: 1.8rem;
     text-align: center;
     color: white;
-    margin-top: 6rem;
+    margin-top: 5.5rem;
 }
 
 .box-container{
@@ -109,7 +109,6 @@ h1{
 .box-container .box .title:hover{
     text-decoration: underline;
 }
-
 
 
 
