@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(155, 81, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html{
+    color: aqua;
+}
+
+.css{
+    color: blue;
+}
+.js{
+    color: deeppink;
+}
+
+.tec{
+    font-weight: bold;
+}
+
+.header{
+    background: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+   
+}
+
+.header .logo-container{
+    margin: .4rem 0 0 3.5rem;
+}
+.header .logo{
+    font-family: 'Parisienne', cursive;
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header .down{
+    margin: -.5rem 0 0 2rem;
+}
+
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+    margin-top: 1.8rem;
+}
+
+.box-container{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 30px 9% 20px;
+}
+
+
+.box-container .box{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+   
+}
+
+.box-container .box a{
+    text-decoration: none;
+}
+.box-container .box .img{
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.box-container .box .img a img{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: all .1s linear;
+   
+}
+
+.box-container .box .img a img:hover{
+   transform: scale(1.1);
+}
+
+.box-container .box .title{
+    display: block;
+    margin: .8rem 0;
+    font-weight: bold;
+    color: black;
+}
+
+.box-container .box .title:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+@media (max-width: 672px){
+    html{
+        font-size: 85%;
+    }
+
+    .header{
+       height: 55px;
+       
+    }
+
+    .header .logo-container{
+        margin-left: 1rem;
+    }
+}
