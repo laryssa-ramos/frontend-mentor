@@ -27,7 +27,7 @@ html, body {
  
 
 .card-container{
-    min-height: 80vh;
+    min-height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: .7rem;
 }
 
 
