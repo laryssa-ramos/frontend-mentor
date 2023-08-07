@@ -26,6 +26,11 @@ body{
 }
 
 .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
     background: black;
     height: 70px;
     display: flex;
@@ -116,7 +121,7 @@ h1{
     }
 
     .header{
-       height: 55px;
+       height: 60px;
        
     }
 
