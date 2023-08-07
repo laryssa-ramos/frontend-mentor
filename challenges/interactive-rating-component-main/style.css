@@ -31,7 +31,7 @@ html{
 
 
 .card{
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,6 +160,29 @@ html{
     color: var(--light-grey);
     font-size: 1rem;
     line-height: 1.5rem;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+
+.buttons-container .buttons a img{
+    height: 20px;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: .6rem;
+    transition: all .2s linear;
+}
+
+
+.buttons-container .buttons a img:hover{
+  
+    background-color: var(--orange);
+  
 }
 
 .attribution { 

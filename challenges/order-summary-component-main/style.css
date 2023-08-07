@@ -18,10 +18,10 @@ body{
 }
 
 .main-container{
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 
 }
 
@@ -149,6 +149,29 @@ body{
 .main-container .container .buttons a:hover{
     color: rgb(12, 12, 104);
     font-weight: 700;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons-container .buttons a img{
+    height: 20px;
+    background-color: var(--bright-blue);
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    padding: .6rem;
+    transition: all .2s linear;
+}
+
+
+.buttons-container .buttons a img:hover{
+  
+    background-color: var(--desaturated-blue);
+  
 }
 
 .attribution { 
