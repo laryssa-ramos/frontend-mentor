@@ -40,7 +40,7 @@ html, body {
     height: 350px;
     width: 230px;
     position: relative;
-    padding: 2.2rem;
+    padding: 2.4rem;
  
 }
 
@@ -73,7 +73,7 @@ html, body {
 .container .box .text{
     display: flex;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 400;
     line-height: 1.2rem;
     
@@ -129,6 +129,10 @@ html, body {
 
 @media (max-width:689px){
 
+    .container{
+        margin-top: 3rem;
+    }
+
     .container .dark-cyan{
         border-radius: 0 .5rem .5rem 0;
     }
@@ -139,7 +143,8 @@ html, body {
     }
 
     .attribution { 
-        margin: 1.5rem 0;
+        padding-bottom: 2rem;
+        margin-top: 1rem;
     }
 }
 
