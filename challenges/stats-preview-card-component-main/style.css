@@ -27,7 +27,7 @@ html, body {
  
 
 .main-container {
-    min-height: 90%;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,8 +119,31 @@ html, body {
     border-radius: 0 .5rem .5rem 0;
 }
 
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons-container .buttons a img{
+    height: 20px;
+    background-color: var(--soft-violet);
+    border-radius: 50%;
+    padding: .6rem;
+    transition: all .2s linear;
+}
+
+
+.buttons-container .buttons a img:hover{
+  
+    background-color: var(--slightly-transparent-white);
+  
+}
+
 
 .attribution { 
+    margin-top: 2rem;
     font-family: 'Lexend Deca';
     font-size: 11px; 
     color: var(--slightly-transparent-white);
@@ -160,7 +183,10 @@ html, body {
         font-size: 85%;
     }
 
+    
+
     .main-container {
+        min-height: 90vh;
         justify-content: center;
         align-items: center;
     }
@@ -225,4 +251,10 @@ html, body {
         margin-left: 1.5rem;
         
     }
+
+    .attribution{
+       
+        margin: 0;
+    }
+    
 }

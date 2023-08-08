@@ -111,6 +111,29 @@ html, body {
     color: var(--very-light-gray);
 }
 
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.buttons-container .buttons a img{
+    height: 20px;
+    background-color: var(--grayish-blue);
+    border-radius: 50%;
+    padding: .6rem;
+    transition: all .2s linear;
+}
+
+
+.buttons-container .buttons a img:hover{
+  
+    background-color: var(--dark-blue);
+  
+}
+
 .attribution { 
     font-size: .7rem; text-align: center; 
     font-family: 'Lexend Deca', sans-serif;
