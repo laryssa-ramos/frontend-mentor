@@ -28,7 +28,7 @@ html, body {
  
 
 .container{
-    min-height: 80%;
+    min-height: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -115,7 +115,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 
@@ -134,7 +134,17 @@ html, body {
   
 }
 
+.home a{
+    color: var(--dark-cyan);  
+}
+
+.home a:hover{
+    color: var(--bright-orange);  
+}
+
+
 .attribution { 
+    margin-top: 1.5rem;
     font-size: .7rem; text-align: center; 
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -166,7 +176,10 @@ html, body {
     }
 
 
-   
+    .buttons-container{
+        margin: 1.5rem 0 0 0;
+    }
+
     .attribution { 
         padding-bottom: 2rem;
         margin-top: 1rem;
