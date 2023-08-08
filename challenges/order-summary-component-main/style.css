@@ -18,8 +18,8 @@ body{
 }
 
 .main-container{
-    height: 78vh;
-    margin-top: 4rem;
+    height: 80vh;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -27,7 +27,7 @@ body{
 }
 
 .main-container .container{
-    max-width: 270px;
+    max-width: 300px;
     width: 100%;
 }
 
@@ -153,7 +153,6 @@ body{
 }
 
 .buttons-container{
-    margin-bottom: -.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
