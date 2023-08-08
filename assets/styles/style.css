@@ -29,7 +29,7 @@ h1{
     font-size: 1.8rem;
     text-align: center;
     color: white;
-    margin-top: 6rem;
+    margin-top: 6.6rem;
 }
 
 .box-container{
@@ -100,7 +100,4 @@ h1{
         margin-left: 1rem;
     }
 
-    h1{
-        margin-top: 6.2rem;
-    }
 }

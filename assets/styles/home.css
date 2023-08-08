@@ -36,3 +36,17 @@
     text-decoration: none;
     font-size: 1.2rem;
 }
+
+@media (max-width: 672px){
+    
+    .header .logo-container{
+        margin-left: 1.5rem;
+    }
+
+    .header .home{
+        padding-right: 2rem;
+    }
+    
+      
+
+}
