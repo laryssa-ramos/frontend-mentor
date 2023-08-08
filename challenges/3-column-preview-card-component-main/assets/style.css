@@ -166,13 +166,7 @@ html, body {
     }
 
 
-    .buttons-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 1.5rem 0 0 0;
-    }
-
+   
     .attribution { 
         padding-bottom: 2rem;
         margin-top: 1rem;
