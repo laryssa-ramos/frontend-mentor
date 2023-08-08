@@ -25,34 +25,6 @@ body{
     font-weight: bold;
 }
 
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    background: black;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-   
-}
-
-.header .logo-container{
-    margin: .4rem 0 0 3.5rem;
-}
-.header .logo{
-    font-family: 'Parisienne', cursive;
-    display: block;
-    color: white;
-    font-size: 1.5rem;
-}
-
-.header .down{
-    margin: -.5rem 0 0 2rem;
-}
-
 h1{
     font-size: 1.8rem;
     text-align: center;
