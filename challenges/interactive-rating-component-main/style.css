@@ -8,7 +8,7 @@
 --light-grey: hsl(217, 12%, 54%);
 --medium-grey: hsl(216, 12%, 54%);
 --dark-blue: hsl(213, 19%, 18%);
---very-dark-blue: hsl(216, 12%, 8%); 
+--very-dark-blue: hsl(213, 11%, 16%); 
 --dark-medium: hsl(213, 18%, 22%);
 
 }
@@ -19,7 +19,7 @@
 }
 
 body{
-    background: var(--very-dark-blue);
+    background: var(--light-grey);
     overflow-y: hidden;
 }
 
@@ -31,7 +31,7 @@ html{
 
 
 .card{
-    height: 82vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +192,7 @@ html{
     text-align: center; 
 }
 .attribution a { 
-    color: var(--orange); 
+    color: var(--very-dark-blue); 
     text-decoration: none;
 }
 
@@ -201,11 +201,9 @@ html{
 @media (max-width:405px){
     
     .card .container{
-        max-width: 230px;
+        max-width: 280px;
         width: 100%;
-        background: var(--dark-blue);
-        padding: 1.5rem;
-    
+        
     }
 }
 
