@@ -27,7 +27,7 @@ html, body {
  
 
 .card-container{
-    min-height: 80vh;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ html, body {
 
 .card-container .container{
     position: relative;
-    max-width: 250px;
+    max-width: 240px;
     width: 100%;
     padding: .9rem;
     background: var(--very-dark-blue-card);
@@ -134,7 +134,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: .7rem;
 }
 
 
