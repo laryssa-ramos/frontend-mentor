@@ -28,7 +28,7 @@ html, body {
  
 
 .container{
-    min-height: 90%;
+    min-height: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -115,13 +115,13 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem;
 }
 
 
 .buttons-container .buttons a img{
-    height: 20px;
-    background-color: var(--grayish-blue);
+    height: 40px;
+    background-color: var(--dark-cyan);
     border-radius: 50%;
     padding: .6rem;
     transition: all .2s linear;
@@ -130,7 +130,7 @@ html, body {
 
 .buttons-container .buttons a img:hover{
   
-    background-color: var(--dark-blue);
+    background-color: var(--bright-orange);
   
 }
 
@@ -163,6 +163,14 @@ html, body {
     .container .very-dark-cyan{
         background-color: var(--very-dark-cyan);
         border-radius: 0 0 .5rem .5rem;
+    }
+
+
+    .buttons-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem 0 0 0;
     }
 
     .attribution { 
