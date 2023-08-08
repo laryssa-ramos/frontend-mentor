@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    background: var(--very-dark-blue-main);
+    background: var(--very-dark-blue-text);
     font-family: 'Outfit', sans-serif;
     overflow: hidden;
 }
@@ -27,7 +27,8 @@ html, body {
  
 
 .card-container{
-    min-height: 85vh;
+    min-height: 70vh;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +36,7 @@ html, body {
 
 .card-container .container{
     position: relative;
-    max-width: 240px;
+    max-width: 220px;
     width: 100%;
     padding: .9rem;
     background: var(--very-dark-blue-card);
@@ -131,6 +132,7 @@ html, body {
 }
 
 .buttons-container{
+    margin-top: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +150,7 @@ html, body {
 
 .buttons-container .buttons a img:hover{
   
-    background-color: var(--very-dark-blue-text);
+    background-color: hsl(214, 43%, 42%);
   
 }
 
@@ -158,7 +160,7 @@ html, body {
 .attribution {
     font-size: 11px;
     text-align: center;
-    color: var(--very-dark-blue-text);
+    color: var(--very-dark-blue-main);
     margin: 0.5rem;
   }
 

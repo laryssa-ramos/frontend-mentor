@@ -31,7 +31,8 @@ html{
 
 
 .card{
-    height: 85vh;
+    height: 70vh;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
