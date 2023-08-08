@@ -32,9 +32,16 @@
 }
 
 .header .home a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    transition: all .2s linear;
+}
+
+.header .home a:hover{
+    color: rgb(155, 81, 224);;
 }
 
 @media (max-width: 672px){
