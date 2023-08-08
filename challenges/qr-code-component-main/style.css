@@ -27,7 +27,7 @@ html{
 }
 
 .wrapper{
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +58,29 @@ html{
     padding: 0 .5rem ;
     font-size: 0.9rem;
     color: var(--grayish-blue);
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.buttons-container .buttons a img{
+    height: 20px;
+    background-color: var(--grayish-blue);
+    border-radius: 50%;
+    padding: .6rem;
+    transition: all .2s linear;
+}
+
+
+.buttons-container .buttons a img:hover{
+  
+    background-color: var(--dark-blue);
+  
 }
 
 footer .attribution { 
