@@ -30,6 +30,7 @@ html, body {
 .container{
     min-height: 70%;
     display: flex;
+    margin-top: 5rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -115,7 +116,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
 }
 
 
@@ -161,10 +161,6 @@ html, body {
 
 
 @media (max-width:689px){
-
-    .container{
-        margin-top: 3rem;
-    }
 
     .container .dark-cyan{
         border-radius: 0 .5rem .5rem 0;
