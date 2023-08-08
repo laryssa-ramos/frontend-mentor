@@ -31,7 +31,7 @@ html{
 
 
 .card{
-    height: 70vh;
+    height: 82vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@ html{
 
 
 .card .container{
-    max-width: 290px;
+    max-width: 300px;
     width: 100%;
     background: var(--dark-blue);
     padding: 1.8rem;

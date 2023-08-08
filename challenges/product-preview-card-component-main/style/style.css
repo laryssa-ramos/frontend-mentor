@@ -147,7 +147,8 @@ body{
     font-family: var(--font2);
     font-size: 1rem; 
     text-align: center; 
-    margin: 1.2rem 0;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 .attribution a { 
     color: var(--dark-cyan);
