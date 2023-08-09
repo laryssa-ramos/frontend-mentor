@@ -27,7 +27,7 @@ html{
 }
 
 .wrapper{
-    height: 80vh;
+    height: 78vh;
     margin-top: 4rem;
     display: flex;
     justify-content: center;
@@ -85,6 +85,7 @@ html{
 }
 
 footer .attribution { 
+    margin-top: .6rem;
     font-size: 11px; text-align: center; 
 }
 footer .attribution a { 
