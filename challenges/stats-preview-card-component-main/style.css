@@ -137,7 +137,7 @@ html, body {
 
 .buttons-container .buttons a img:hover{
   
-    background-color: var(--slightly-transparent-white);
+    background-color: hsl(277, 89%, 81%);
   
 }
 

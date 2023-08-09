@@ -50,8 +50,8 @@ html, body {
     background-image: url("images/icon-view.svg" );
     background-position: center center;
     background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     border-radius: 0.7rem;
     opacity: 0.5;
     cursor: pointer;
