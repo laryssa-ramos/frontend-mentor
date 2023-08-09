@@ -107,10 +107,27 @@ footer .line{
 
 footer .social-media i{
     font-size: 2rem;
+    transition: all .2s linear;
 }
+
+footer .social-media i:hover{
+    color: rgb(155, 81, 224);
+}
+
+footer .social-media i{
+    font-size: 2rem;
+}
+
+
+footer .social-media a:link,
+a:visited{
+    color: #fff;
+}
+
 
 footer .name{
     margin-top: .6rem;
+    font-size: .85rem;
 }
 
 footer .name strong{
@@ -133,5 +150,9 @@ footer .name strong{
     .header .logo-container{
         margin-left: 1rem;
     }
+
+    footer .social-media {
+        width: 40%;
+     }
 
 }
