@@ -145,7 +145,7 @@ body{
 
 .attribution { 
     font-family: var(--font2);
-    font-size: 1rem; 
+    font-size: .7rem; 
     text-align: center; 
     margin-top: 1rem;
     padding-bottom: 1rem;
@@ -159,13 +159,17 @@ body{
      
     .card{
         display: block;
-        width: 25rem;
+        width: 20rem;
         padding-bottom: .2rem;
     }
 
     .card .image img{
-        width: 25rem;
+        width: 20rem;
         border-radius: 0.7rem 0.7rem 0 0;
+    }
+
+    .card .text {
+        margin: 1.5rem;
     }
 
     .card .text .btn{
