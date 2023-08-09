@@ -17,7 +17,7 @@
 
 body{
     font-size: 15px;
-    background: var(--very-dark-blue);
+    background: var(--slightly-transparent-stat);
 }
 
 html, body {
@@ -146,7 +146,7 @@ html, body {
     margin-top: 2rem;
     font-family: 'Lexend Deca';
     font-size: 11px; 
-    color: var(--slightly-transparent-white);
+    color: var(--very-dark-blue);
     text-align: center;
 
 }
@@ -186,7 +186,8 @@ html, body {
     
 
     .main-container {
-        min-height: 90vh;
+        margin-top: 5rem;
+        min-height: 80vh;
         justify-content: center;
         align-items: center;
     }
