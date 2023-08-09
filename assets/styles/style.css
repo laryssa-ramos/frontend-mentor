@@ -81,6 +81,41 @@ h1{
     text-decoration: underline;
 }
 
+footer{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .6rem;
+    color: white;
+}
+
+footer .social-media {
+   width: 20%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: .6rem;
+   
+}
+
+footer .line{
+    width: 90%;
+    height: 1px;
+    background: rgb(145, 145, 145);
+}
+
+footer .social-media i{
+    font-size: 2rem;
+}
+
+footer .name{
+    margin-top: .6rem;
+}
+
+footer .name strong{
+    color: rgb(155, 81, 224);
+}
 
 
 
