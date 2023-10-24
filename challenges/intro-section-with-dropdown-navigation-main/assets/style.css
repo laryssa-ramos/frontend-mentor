@@ -313,7 +313,7 @@ header .menu__btn {
 
     .home{
         display: flex;
-        height: 57vh;
+        height: 63vh;
         flex-direction: column-reverse;
         text-align: center;
     }
@@ -325,6 +325,7 @@ header .menu__btn {
 
     .home .content p{
        padding: 0 1rem;
+       font-size: 1rem;
     }
 
     .home .content .client{
