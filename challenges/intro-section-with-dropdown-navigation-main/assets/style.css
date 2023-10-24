@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+:root {
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    padding: 1.5rem 2rem;
+    font-size: .7rem;
+}
+
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--medium-gray);
+    font-weight: 500;
+}
+
+header ul li {
+    list-style: none;
+    line-height: 1.5rem;
+    padding: 0 15px;
+}
+
+header .box {
+    display: flex;
+}
+
+header .box .menu {
+    position: relative;
+    display: flex;
+    margin-left: 2rem;
+
+}
+
+header .box .menu a:hover,
+header .login-register a:hover {
+    color: var(--almost-black);
+
+}
+
+header .box .menu li ul img {
+    margin-right: .5rem;
+
+}
+
+header .box .menu .dropdwon__item {
+    position: relative;
+}
+
+header .box .menu .dropdwon__item .features-list {
+    margin-left: -3rem;
+}
+
+
+header .box .menu .dropdwon__item .dropdwon {
+    position: absolute;
+    max-height: 0;
+    display: none;
+    overflow: hidden;
+    transition: max-height .4s ease-out;
+    padding: .5rem .2rem;
+    background-color: var(--almost-white);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.24);
+    border-radius: .5rem;
+
+}
+
+header .box .menu .dropdwon__item:hover .dropdwon {
+    display: block;
+    max-height: 1000px;
+    transition: max-height .4s ease-in;
+
+}
+
+header .box .menu .dropdwon__item:hover .dropdwon__arrow {
+    transform: rotate(180deg);
+
+}
+
+header .box .menu .dropdwon__item .features-list li {
+    display: flex;
+    align-items: center;
+}
+
+header .login-register a {
+    margin: 0 .7rem;
+}
+
+header .box .menu .dropdwon__item .company-list {
+    width: 90%;
+}
+
+header .login-register :nth-child(2) {
+    padding: .5rem;
+    border: 1px solid var(--almost-black);
+    border-radius: .7rem;
+}
+
+header .menu__btn {
+    display: none;
+}
+
+
+/* HOME */
+
+.home{
+    max-width: 1000px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.home .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    padding: 1.5rem 0;
+}
+
+
+.home .content h1{
+    font-size: 3.8rem;
+    white-space: pre-line;
+}
+
+.home .content p{
+    max-width: 400px;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    margin-top: -1.5rem;
+    color: var(--medium-gray);
+    
+}
+
+.home .content span a{
+    text-decoration: none;
+    font-size: .8rem;
+    padding: .8rem 1.2rem;
+    color: var(--almost-white);
+    background-color: var(--almost-black);
+    border: 1px solid var(--almost-black);
+    border-radius: .8rem;
+    transition: all .2s linear;
+}
+
+.home .content span a:hover{
+    background: var(--almost-white);
+    color: var(--almost-black);
+    
+}
+
+.home .content .client{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: -3rem;
+}
+
+.home .content .client img{
+    width: 4rem;
+ }
+
+.home .hero picture img{
+    width: 20rem;
+}
+
+
+@media (max-width:881px){
+
+    html{
+        font-size: 95%;
+    }
+}
+
+
+
+
+@media (max-width: 750px) {
+
+    header {
+        display: flex;
+    }
+
+
+    header .nav {
+        padding: .5rem;
+        display: block;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+        width: 190px;
+        background-color: var(--almost-white);
+
+    }
+
+
+    header .menu__btn {
+        position: absolute;
+        display: initial;
+        cursor: pointer;
+        right: 17px;
+    }
+
+   
+    nav.menu__hidden {
+        display: none;
+    }
+
+    
+    .menu__visible {
+        display: block;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+        display: none;
+      
+    }
+
+
+    .overlay__visible {
+        display: block;
+    }
+
+    header .menu__close {
+        margin-top: .7rem;
+    }
+
+
+    header .box .menu {
+        display: block;
+        width: 10rem;
+        margin: 3rem 0 0 0;
+
+    }
+
+    header .box .menu li {
+        line-height: 2rem;
+
+    }
+
+    header .box .menu .dropdwon__item {
+        position: relative;
+
+    }
+
+
+    header .box .menu .dropdwon__item .dropdwon {
+        position: relative;
+        padding: 0;
+        background-color: var(--almost-white);
+        box-shadow: none;
+        border-radius: none;
+
+    }
+
+    header .box .menu .dropdwon__item .features-list {
+        margin-left: 0;
+    }
+
+
+
+    header .login-register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    header .login-register :nth-child(2) {
+        max-width: 150px;
+        width: 100%;
+        text-align: center;
+        margin-top: .7rem;
+        padding: .5rem 1rem;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+       text-align: center;
+    }
+
+    .home .content h1{
+        font-size: 2rem;
+        white-space: initial;
+    }
+
+    .home .content p{
+       padding: 0 1rem;
+    }
+
+    .home .content .client{
+        padding: 0 1rem;
+    }
+}
