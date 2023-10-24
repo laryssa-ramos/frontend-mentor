@@ -223,6 +223,10 @@ header .menu__btn {
 
     }
 
+    header a{
+        font-size: .85rem;
+    }
+
 
     header .menu__btn {
         position: absolute;
