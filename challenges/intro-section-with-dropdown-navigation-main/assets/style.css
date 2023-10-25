@@ -344,6 +344,12 @@ header .menu__btn {
 
     .home .content .client{
         padding: 0 1rem;
-        margin-bottom: 0;
+    }
+
+    .attribution{
+        display: flex;
+        justify-content: center;
+        font-size: .8rem;
+        padding: 8rem 0;
     }
 }
