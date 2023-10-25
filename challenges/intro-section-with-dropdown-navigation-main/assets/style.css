@@ -131,7 +131,7 @@ header .menu__btn {
 
 .home{
     max-width: 1000px;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -193,6 +193,16 @@ header .menu__btn {
     width: 20rem;
 }
 
+.attribution{
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    padding: 1rem 0;
+}
+
+.attribution a{
+    text-decoration: none;
+}
 
 @media (max-width:881px){
 
@@ -334,5 +344,6 @@ header .menu__btn {
 
     .home .content .client{
         padding: 0 1rem;
+        margin-bottom: 0;
     }
 }
