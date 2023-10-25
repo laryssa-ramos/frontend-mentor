@@ -19,7 +19,7 @@ body{
 
 .main-container{
     height: 75vh;
-    margin-top: 4.5rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -163,7 +163,7 @@ body{
     height: 20px;
     background-color: var(--bright-blue);
     border-radius: 50%;
-    margin-bottom: .5rem;
+    margin: 2rem 0 .5rem;
     padding: .6rem;
     transition: all .2s linear;
 }

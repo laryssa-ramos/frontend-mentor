@@ -28,7 +28,7 @@ html{
 
 .wrapper{
     height: 76vh;
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +65,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2.5rem;
    
 }
 
