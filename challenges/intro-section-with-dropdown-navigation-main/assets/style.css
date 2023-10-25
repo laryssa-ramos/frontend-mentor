@@ -350,6 +350,6 @@ header .menu__btn {
         display: flex;
         justify-content: center;
         font-size: .8rem;
-        padding: 8rem 0;
+        padding-top: 8rem;
     }
 }
