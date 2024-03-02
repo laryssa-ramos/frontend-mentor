@@ -19,7 +19,7 @@
 }
 
 body{
-    background: var(--very-dark-blue);
+    background: var(--light-grey);
     overflow-y: hidden;
 }
 
